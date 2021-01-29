@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+  <title>vae+calendar</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href='./css/index.css'>
+
+</head>
+<body>
+  <div class='container' id="container">
+    <header>
+      <div class='header-date'></div>
+      <img src='./img/vae+logo.png' alt='logo' />
+    </header>
+    <main>
+      <div class='main-top'>
+        <div class='main-lunar'></div>
+        <div class='main-week'>
+          <div class='week-chinese'></div>
+          <div class='week-english'></div>
+        </div>
+        <div class='mian-solar-terms'></div>
+      </div>
+      <div class='main-center'></div>
+      <div class='main-footer'>
+        <div class='month-english'></div>
+        <div class='month-chinese'></div>
+      </div>
+    </main>
+    <footer class='footer'></footer>
+  </div>
+</body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.0/jquery.js"></script>
+<script src="./js/EventUtil.js"></script>
+<script src="./js/solarlunar.min.js"></script>
+<script src="./js/index.js"></script>
+</html>

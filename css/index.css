@@ -1,0 +1,77 @@
+body {
+  padding: 30px;
+}
+.container {
+  max-width: 375px;
+  height: 88vh;
+  margin: 0 auto;
+  border: 2px solid #6CA5FE;
+  display: flex;
+  flex-direction: column;
+  color: #6ca5fe;
+}
+header {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+header img {
+  width: 20%;
+  height: auto
+}
+
+main {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-top: 2px solid #6CA5FE;
+  border-bottom: 2px solid #6CA5FE;
+  padding: 0 20px;
+}
+.main-top {
+  flex: 1;
+  /* margin-top: 10px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-top .main-lunar {
+  position: absolute;
+}
+.main-top .mian-solar-terms {
+  position: absolute;
+  right: 0;
+}
+
+.main-top .main-week {
+  /* margin: 0 auto; */
+}
+
+.main-center {
+  flex: 3;
+  font-size: 180px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+}
+
+footer {
+  flex: 3;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
