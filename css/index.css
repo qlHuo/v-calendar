@@ -8,13 +8,21 @@ body {
 
 .container {
   position: relative;
-  max-width: 375px;
+  width: 100%;
   margin: 0 auto;
   height: 90vh;
   display: flex;
   flex-direction: column;
   color: #6ca5fe;
   border: 2px solid #6CA5FE;
+
+  @media screen and (max-width: 375px) {
+    width: 375px !important;
+  }
+
+  @media screen and (min-width: 769px) {
+    width: 750px !important;
+  }
 }
 header {
   flex: 1;
